@@ -96,8 +96,8 @@ easily tell if someone is misbehaving egregiously.
 
 This requires Go 1. Building and using this project should be a simple as:
 
-    $ go get github.com/xb95/riak-sniffer
-    $ go install github.com/xb95/riak-sniffer/riak-sniffer
+    $ go get github.com/republicwireless/riak-sniffer
+    $ go install github.com/republicwireless/riak-sniffer/riak-sniffer
 
 This package bundles the Riak protobufs. They are slightly hand-modified
 to build them into a single package.
@@ -105,7 +105,7 @@ to build them into a single package.
 
 ## Bugs and Improvements 
 
-This code is housed at https://github.com/xb95/riak-sniffer and pull
+This code is housed at https://github.com/republicwireless/riak-sniffer and pull
 requests, issues, and comments are always welcome.
 
 

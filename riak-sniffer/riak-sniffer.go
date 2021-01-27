@@ -18,8 +18,8 @@
 package main
 
 import (
-	riak "github.com/xb95/riak-sniffer/proto"
-	"code.google.com/p/goprotobuf/proto"
+	riak "github.com/republicwireless/riak-sniffer/proto"
+	"github.com/golang/protobuf/proto"
 	"errors"
 	"flag"
 	"fmt"
