@@ -98,7 +98,7 @@ The build requires libpcap-dev
   Ubuntu:
     $ sudo apt install libpcap-dev
 
-This requires Go 1. Building and using this project should be a simple as:
+This requires Go 1.10 Building and using this project should be a simple as:
 
     $ go get -u github.com/republicwireless/riak-sniffer/riak-sniffer
 
