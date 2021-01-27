@@ -93,11 +93,14 @@ easily tell if someone is misbehaving egregiously.
 
 
 ## Building
+The build requires libpcap-dev
+
+  Ubuntu:
+    $ sudo apt install libpcap-dev
 
 This requires Go 1. Building and using this project should be a simple as:
 
-    $ go get github.com/republicwireless/riak-sniffer
-    $ go install github.com/republicwireless/riak-sniffer/riak-sniffer
+    $ go get -u github.com/republicwireless/riak-sniffer/riak-sniffer
 
 This package bundles the Riak protobufs. They are slightly hand-modified
 to build them into a single package.
